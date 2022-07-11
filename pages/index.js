@@ -1,5 +1,5 @@
-import { Footer, Navbar } from '../components';
-import About1 from '../sections/About/About1/About1';
+import { Footer } from '../components';
+import About1 from '../sections/About/about1/about1';
 import About2 from '../sections/About/About2/About2';
 import Login from '../sections/auth/login/Login';
 import Register from '../sections/auth/Register/Register';
@@ -27,7 +27,7 @@ import WhyUs3 from '../sections/why-us/why-us-3/why-us-3';
 function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />  Wannt Fix... */}
       <Category1 />
       <Category2 />
       <Category3 />

@@ -9,11 +9,13 @@ function Card({ imageUrl, name }) {
     const cardVariants = {
         initial: {
             y: -200,
-            opacity: 0
+            opacity: 0,
+
         },
         animate: {
             y: 0,
             opacity: 1,
+            transition: { duration: 2 }
         }
     }
 
@@ -24,7 +26,6 @@ function Card({ imageUrl, name }) {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            whileHover={{ y: -20, transition: { duration: 0.3 } }}
         >
             <div>
                 <Image src={imageUrl} alt="Event" className='cursor-pointer' />

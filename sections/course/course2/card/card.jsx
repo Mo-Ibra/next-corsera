@@ -28,8 +28,8 @@ function Card({
         <div className='bg-white shadow-sm border border-slate-100 relative'>
             <div className='p-5'>
                 <div className='flex'>
-                    <div>
-                        <Image src={authorUrl} alt="Author" className='rounded-full mr-5' />
+                    <div className='mr-5'>
+                        <Image src={authorUrl} alt="Author" className='rounded-full' />
                     </div>
                     <div>
                         <h5 className='text-gray-700 font-bold'>{authorName}</h5>

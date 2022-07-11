@@ -13,7 +13,7 @@ function Card({icon, name}) {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.3
+                duration: 2
             }
         }
     }
@@ -25,7 +25,6 @@ function Card({icon, name}) {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            whileHover={{ y: -20, backgroundColor: '#eee'}}
         >
             {
                 icon

@@ -2,8 +2,6 @@ import React from 'react';
 
 import Image from 'next/image';
 
-// import './about.scss';
-
 import { AiOutlineBug, AiOutlineBulb, AiOutlineArrowRight } from 'react-icons/ai';
 
 import AboutImg from '../../../assets/images/about/1.jpg';
