@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Image from 'next/image';
+
 import EventMainImage from '../../../assets/images/event-details/event.jpg';
 
 import InnerImage1 from '../../../assets/images/event-details/1.jpg';
@@ -11,7 +13,7 @@ function EventDetails() {
     return (
         <div className='py-20'>
             <div className="container mx-auto px-10">
-                <img src={EventMainImage} alt="Event" width="100%" height="100%" />
+                <Image src={EventMainImage} alt="Event" />
                 <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-8'>
                     <div className='lg:col-span-2'>
                         <h3 className='text-gray-700 font-semibold my-5 text-5xl'>UI/UX Design & Development Contest 2022</h3>
@@ -35,10 +37,10 @@ function EventDetails() {
                         </p>
                         <div className='grid grid-cols-2 gap-8 my-5'>
                             <div>
-                                <img src={InnerImage1} alt="Inner" width="100%" height="100%" className='rounded-md cursor-pointer' />
+                                <Image src={InnerImage1} alt="Inner" className='rounded-md cursor-pointer' />
                             </div>
                             <div>
-                                <img src={InnerImage2} alt="Inner" width="100%" height="100%" className='rounded-md cursor-pointer' />
+                                <Image src={InnerImage2} alt="Inner" className='rounded-md cursor-pointer' />
                             </div>
                         </div>
                         <div className='my-5'>
