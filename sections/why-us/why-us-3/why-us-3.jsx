@@ -22,21 +22,21 @@ function WhyUs3() {
                         <div className='flex my-10'>
                             <div className='mr-5 flex items-center'>
                                 <AiFillAccountBook className='mr-2 text-orange-500 text-4xl' />
-                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-lg'>2000+ Verified Course</h3>
+                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-sm md:text-lg'>2000+ Verified Course</h3>
                             </div>
                             <div className='mr-5 flex items-center'>
                                 <AiFillAccountBook className='mr-2 text-orange-500 text-4xl' />
-                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-lg'>256+ Free Videos</h3>
+                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-sm md:text-lg'>256+ Free Videos</h3>
                             </div>
                         </div>
                         <div className='flex my-10'>
                             <div className='mr-5 flex items-center'>
                                 <AiFillAccountBook className='mr-2 text-orange-500 text-4xl' />
-                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-lg'>2000+ Verified Course</h3>
+                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-sm md:text-lg'>2000+ Verified Course</h3>
                             </div>
                             <div className='mr-5 flex items-center'>
                                 <AiFillAccountBook className='mr-2 text-orange-500 text-4xl' />
-                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-lg'>256+ Free Videos</h3>
+                                <h3 className='font-semibold drop-shadow-sm text-gray-700 text-sm md:text-lg'>256+ Free Videos</h3>
                             </div>
                         </div>
                         <button className='bg-blue-500 text-white py-2 px-8 rounded-md'>Explore Course</button>
