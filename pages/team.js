@@ -1,11 +1,11 @@
 import { Breadcrumb, Footer, Navbar } from "../components";
 import { Offer, Team, Testimonials } from "../sections";
 
-function PricePage() {
+function TeamPages() {
     return (
         <>
             <Navbar />
-            <Breadcrumb title="Team" />
+            <Breadcrumb title="Team." />
             <Team />
             <Testimonials />
             <Offer />
@@ -14,4 +14,4 @@ function PricePage() {
     )
 }
 
-export default PricePage;
+export default TeamPages;
