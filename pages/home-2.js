@@ -1,4 +1,4 @@
-import { Footer, Header } from "../components";
+import { Footer, Header, Navbar } from "../components";
 import {
   About2,
   Category2,
@@ -13,7 +13,7 @@ import {
 function Home() {
   return (
     <>
-      {/* <Navbar />  Wannt Fix... */}
+      <Navbar />
       <Header />
       <Category2 />
       <About2 />

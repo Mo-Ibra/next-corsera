@@ -1,11 +1,12 @@
-import { Footer, Navbar } from "../components";
-import { Feautes, Offer, Testimonials2 } from "../sections";
+import { Breadcrumb, Footer, Navbar } from "../components";
+import { Features, Offer, Testimonials2 } from "../sections";
 
-function Event() {
+function FeaturesPage() {
     return (
         <>
             <Navbar />
-            <Feautes />
+            <Breadcrumb title="Features" />
+            <Features />
             <Testimonials2 />
             <Offer />
             <Footer />
@@ -13,4 +14,4 @@ function Event() {
     )
 }
 
-export default Event;
+export default FeaturesPage;

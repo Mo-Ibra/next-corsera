@@ -1,7 +1,7 @@
 import { Footer, Navbar } from "../components";
 import { News, Offer } from "../sections";
 
-function Event() {
+function NewsPage() {
     return (
         <>
             <Navbar />
@@ -12,4 +12,4 @@ function Event() {
     )
 }
 
-export default Event;
+export default NewsPage;

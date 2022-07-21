@@ -1,10 +1,11 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
 import { Offer, Price, Testimonials } from "../sections";
 
-function Event() {
+function PricePage() {
     return (
         <>
             <Navbar />
+            <Breadcrumb title="Pricing" />
             <Price />
             <Testimonials />
             <Offer />
@@ -13,4 +14,4 @@ function Event() {
     )
 }
 
-export default Event;
+export default PricePage;

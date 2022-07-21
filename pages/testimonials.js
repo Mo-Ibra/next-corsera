@@ -1,10 +1,11 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
 import { Category3, Testimonials } from "../sections";
 
-function Event() {
+function TestimonialsPage() {
     return (
         <>
             <Navbar />
+            <Breadcrumb title="Testimonials" />
             <Testimonials />
             <Category3 />
             <Footer />
@@ -12,4 +13,4 @@ function Event() {
     )
 }
 
-export default Event;
+export default TestimonialsPage;

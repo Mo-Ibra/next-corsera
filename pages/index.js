@@ -4,7 +4,7 @@ import { About1, Category1, Course2, Testimonials2, Team, WhyUs3, News, Offer, S
 function Home() {
   return (
     <>
-      {/* <Navbar />  Wannt Fix... */}
+      <Navbar />
       <Header />
       <About1 />
       <Category1 />

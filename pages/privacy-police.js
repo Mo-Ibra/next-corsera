@@ -1,14 +1,15 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
 import { PrivacyPolice } from "../sections";
 
-function Event() {
+function PrivacyPolicePage() {
     return (
         <>
             <Navbar />
+            <Breadcrumb title="Privacy & Police" />
             <PrivacyPolice />
             <Footer />
         </>
     )
 }
 
-export default Event;
+export default PrivacyPolicePage;
