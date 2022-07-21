@@ -1,11 +1,11 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
 import { About1, Offer, Team, Testimonials, WhyUs3 } from "../sections";
 
 function About() {
     return (
         <>
-            {/* <Navbar /> */}
-            {/* Breadcrumb */}
+            <Navbar />
+            <Breadcrumb title="About Us" />
             <About1 />
             <Offer />
             {/* Workshop */}
