@@ -16,23 +16,6 @@ function Home() {
       <News />
       <Offer />
       <Footer />
-
-      {/* <WhyUs1 /> */}
-      {/* <WhyUs2 /> */}
-      {/* <Category2 /> */}
-      {/* <Category3 /> */}
-      {/* <About2 /> */}
-      {/* <ContactUs /> */}
-      {/* <Course1 /> */}
-      {/* <Event1 /> */}
-      {/* <Event2 /> */}
-      {/* <Features /> */}
-      {/* <Login /> */}
-      {/* <Register /> */}
-      {/* <Notfound /> */}
-      {/* <Price /> */}
-      {/* <PrivacyPolice /> */}
-      {/* <Testimonials /> */}
     </>
   )
 }

@@ -17,7 +17,7 @@ export { default as Event1 } from "./events/event1/event1";
 export { default as Event2 } from "./events/event2/event2";
 export { default as EventDetails } from "./events/event-details/event-details";
 
-export { default as Feautes } from "./features/features";
+export { default as Features } from "./features/features";
 
 export { default as News } from "./news/news";
 
