@@ -1,8 +1,7 @@
 import { Footer, Navbar } from "../../components";
 import { Register } from "../../sections";
 
-
-function NotFound() {
+function RegisterPage() {
     return (
         <>
             <Navbar />
@@ -12,4 +11,4 @@ function NotFound() {
     )
 };
 
-export default NotFound;
+export default RegisterPage;

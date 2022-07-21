@@ -2,7 +2,7 @@ import { Footer, Navbar } from "../../components";
 import { Login } from "../../sections";
 
 
-function NotFound() {
+function LoginPage() {
     return (
         <>
             <Navbar />
@@ -12,4 +12,4 @@ function NotFound() {
     )
 };
 
-export default NotFound;
+export default LoginPage;
