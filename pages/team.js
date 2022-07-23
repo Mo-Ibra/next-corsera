@@ -5,7 +5,7 @@ function TeamPages() {
     return (
         <>
             <Navbar />
-            <Breadcrumb title="Team." />
+            <Breadcrumb title="Team" />
             <Team />
             <Testimonials />
             <Offer />

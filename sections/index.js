@@ -39,3 +39,7 @@ export { default as WhyUs3 } from "./why-us/why-us-3/why-us-3";
 export { default as Team } from './team/team';
 
 export { default as Subscripe } from './subscripe/subscripe';
+
+export { default as WhoWeAre } from './who-we-are/who-we-are';
+
+export { default as Workshop } from './workshop/work-shop';

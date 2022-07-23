@@ -23,8 +23,6 @@ function Home() {
 export default Home;
 
 
-// Make home 1, 2, 3
-// Make navbar, bread-crumb, header
 // shapes and animation
 // remove all scss and replace them with styled components
 // Add logo for your site.
