@@ -21,7 +21,7 @@ import Card from './card/card';
 
 function Course1() {
     return (
-        <section className='py-20 background-image relative'>
+        <section className='py-10 background-image relative'>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <Card imageUrl={CourseImg1} avatarUrl={AvatarImg1} author="John Doe" rate="4.9" name="Web Development Tutorial: How to create full website" numberOfStudents="290" numberOfLessons="80" price="40" />

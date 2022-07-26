@@ -10,7 +10,7 @@ import Card from './card/card';
 
 function Course2() {
     return (
-        <section className='py-20 relative'>
+        <section className='py-10 relative'>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                     <Card authorUrl={AuthorImg1}

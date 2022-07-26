@@ -1,4 +1,4 @@
-import { Breadcrumb, Footer, Navbar, Pagination } from "../components";
+import { Breadcrumb, Footer, Navbar, Pagination, Searchbar } from "../components";
 import { Course1, Course2 } from "../sections";
 
 function Course() {
@@ -6,7 +6,7 @@ function Course() {
         <>
             <Navbar />
             <Breadcrumb title="Courses 3" />
-            {/* Searchbar */}
+            <Searchbar />
             <Course2 />
             <Pagination />
             <Footer />

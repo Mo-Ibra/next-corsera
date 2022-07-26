@@ -1,11 +1,11 @@
-import { Breadcrumb, Footer, Navbar, Pagination } from "../components";
+import { Breadcrumb, Footer, Navbar, Pagination, Searchbar } from "../components";
 
 function Course() {
     return (
         <>
             <Navbar />
             <Breadcrumb title="Courses 4" />
-            {/* Searchbar */}
+            <Searchbar />
             {/* <Course3 /> */}
             <Pagination />
             <Footer />

@@ -3,7 +3,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 
 function Pagination() {
     return (
-        <section className='py-5'>
+        <section className='py-10'>
             <div className="container mx-auto px-10">
                 <div className='mx-auto text-center'>
                     <button className='mx-2 bg-slate-50 text-blue-500 font-semibold px-3 py-2 rounded-sm'><AiOutlineLeft /></button>
