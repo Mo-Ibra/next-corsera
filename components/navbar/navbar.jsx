@@ -114,6 +114,26 @@ function Navbar() {
                                     <a className='nav-link'>Course 4</a>
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link href='course-filter'>
+                                    <a className='nav-link'>Course Filter</a>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href='course-with-sidebar'>
+                                    <a className='nav-link'>Course With Sidebar</a>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href='course-details-1'>
+                                    <a className='nav-link'>Course Details 1</a>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href='course-details-2'>
+                                    <a className='nav-link'>Course Details 2</a>
+                                </Link>
+                            </li>
                         </ul>
                     </li>
                     <li className="nav-item">
