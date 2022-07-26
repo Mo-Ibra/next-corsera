@@ -1,4 +1,4 @@
-import { Breadcrumb, Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar, Pagination } from "../components";
 
 function Course() {
     return (
@@ -7,7 +7,7 @@ function Course() {
             <Breadcrumb title="Courses 4" />
             {/* Searchbar */}
             {/* <Course3 /> */}
-            {/* Pagination */}
+            <Pagination />
             <Footer />
         </>
     )
