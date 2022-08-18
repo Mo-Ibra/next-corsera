@@ -45,3 +45,5 @@ export { default as WhoWeAre } from './who-we-are/who-we-are';
 export { default as Workshop } from './workshop/work-shop';
 
 export { default as CoursesWithSidebar } from './courses-with-sidebar/courses-with-sidebar';
+
+export { default as CourseDetails1 } from './course-details-1/course-details-1';

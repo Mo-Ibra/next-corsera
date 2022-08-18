@@ -1,14 +1,16 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
+import { Course1, CourseDetails1 } from "../sections";
 
-function Course() {
+function CourseDetailsPage() {
     return (
         <>
-            {/* <Navbar /> */}
-            {/* Breadcrumb */}
-            {/* CourseDetails1 */}
+            <Navbar />
+            <Breadcrumb title="Course Details" />
+            <CourseDetails1 />
+            <Course1 />
             <Footer />
         </>
     )
 }
 
-export default Course;
+export default CourseDetailsPage;
