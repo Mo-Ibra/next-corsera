@@ -110,11 +110,6 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href='course-4'>
-                                    <a className='nav-link'>Course 4</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link href='course-filter'>
                                     <a className='nav-link'>Course Filter</a>
                                 </Link>

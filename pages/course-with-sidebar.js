@@ -1,14 +1,16 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar, Pagination } from "../components";
+import { CoursesWithSidebar } from "../sections";
 
-function Course() {
+function CoursesWithSidebarPage() {
     return (
         <>
-            {/* <Navbar /> */}
-            {/* Breadcrumb */}
-            {/* CoursesWithSidebar */}
+            <Navbar />
+            <Breadcrumb title="Courses With Sidebar"/>
+            <CoursesWithSidebar />
+            <Pagination />
             <Footer />
         </>
     )
 }
 
-export default Course;
+export default CoursesWithSidebarPage;
