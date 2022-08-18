@@ -120,13 +120,8 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href='course-details-1'>
-                                    <a className='nav-link'>Course Details 1</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href='course-details-2'>
-                                    <a className='nav-link'>Course Details 2</a>
+                                <Link href='course-details'>
+                                    <a className='nav-link'>Course Details</a>
                                 </Link>
                             </li>
                         </ul>

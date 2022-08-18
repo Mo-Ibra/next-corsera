@@ -1,10 +1,10 @@
-import { Footer, Navbar } from "../components";
+import { Breadcrumb, Footer, Navbar } from "../components";
 
 function Course() {
     return (
         <>
-            {/* <Navbar /> */}
-            {/* Breadcrumb */}
+            <Navbar />
+            <Breadcrumb title="Course Filter" />
             {/* CoursesWithSuffle */}
             <Footer />
         </>
