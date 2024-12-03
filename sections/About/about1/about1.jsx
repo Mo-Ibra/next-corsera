@@ -81,9 +81,8 @@ function About1() {
                     </div>
                 </div>
             </div>
-            {/* <ShapesOne /> */}
         </section>
     )
 }
 
-export default About1
+export default About1;

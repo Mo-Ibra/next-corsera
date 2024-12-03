@@ -123,7 +123,6 @@ function About2() {
                     </div>
                 </div>
             </div>
-            {/* <ShapesOne /> */}
         </section>
     )
 }

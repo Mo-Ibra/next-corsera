@@ -130,11 +130,6 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href='/faq'>
-                                    <a className='nav-link'>Faq</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link href='/team'>
                                     <a className='nav-link'>Team</a>
                                 </Link>

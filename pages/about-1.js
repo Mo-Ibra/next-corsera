@@ -8,7 +8,6 @@ function About() {
             <Breadcrumb title="About Us" />
             <About1 />
             <Offer />
-            {/* Workshop */}
             <WhyUs3 />
             <Team />
             <Testimonials />

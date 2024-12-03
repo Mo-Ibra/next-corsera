@@ -2,8 +2,6 @@ import Image from 'next/image';
 
 import Link from 'next/link';
 
-import NotfoundImage from '/assets/images/404.png';
-
 function Notfound() {
     return (
         <section className='relative'>
