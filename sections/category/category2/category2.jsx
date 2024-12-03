@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineBulb, AiOutlineBug, AiOutlineBranches, AiOutlineDribbble, AiOutlineDollarCircle, AiOutlineFire, AiOutlineFund, AiOutlineKey } from 'react-icons/ai';
-import Card from './card/Card';
+import Card from './card/card';
 
 function Category2() {
     return (
