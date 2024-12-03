@@ -1,6 +1,6 @@
 import { Breadcrumb, Footer, Navbar } from "../components";
 import {
-    // About1,
+    About1,
     Offer,
     Team,
     Testimonials,
@@ -12,7 +12,7 @@ function About() {
     <>
       <Navbar />
       <Breadcrumb title="About Us" />
-      {/* <About1 /> */}
+      <About1 />
       <Offer />
       <WhyUs3 />
       <Team />

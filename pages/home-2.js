@@ -1,6 +1,6 @@
 import { Footer, Header, Navbar } from "../components";
 import {
-  // About2,
+  About2,
   Category2,
   Course1,
   Event1,
@@ -16,7 +16,7 @@ function Home() {
       <Navbar />
       <Header />
       <Category2 />
-      {/* <About2 /> */}
+      <About2 />
       <Course1 />
       <Event1 />
       <Testimonials />
