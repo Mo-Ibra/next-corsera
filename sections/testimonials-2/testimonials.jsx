@@ -4,12 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 import 'swiper/css';
 
-// Images
-import TestimonialImg1 from '../../assets/images/testimonials/1.png';
-import TestimonialImg2 from '../../assets/images/testimonials/2.png';
-import TestimonialImg3 from '../../assets/images/testimonials/3.png';
-import TestimonialImg4 from '../../assets/images/testimonials/4.png';
-
 import Card from './card/card';
 
 import { useMediaQuery } from 'react-responsive';
@@ -53,16 +47,16 @@ function Testimonials2() {
                         modules={[Autoplay]}
                     >
                         <SwiperSlide>
-                            <Card imageUrl={TestimonialImg1} name="David M.Brad" role="Web Developer" />
+                            <Card imageUrl='/assets/images/testimonials/1.png' name="David M.Brad" role="Web Developer" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Card imageUrl={TestimonialImg2} name="Mohamed Ibrahim" role="Wordpress Experts" />
+                            <Card imageUrl='/assets/images/testimonials/2.png' name="Mohamed Ibrahim" role="Wordpress Experts" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Card imageUrl={TestimonialImg3} name="Osman Dempley" role="UI/UX Designer" />
+                            <Card imageUrl='/assets/images/testimonials/3.png' name="Osman Dempley" role="UI/UX Designer" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Card imageUrl={TestimonialImg4} name="John Doe" role="CEO | Founder" />
+                            <Card imageUrl='/assets/images/testimonials/4.png' name="John Doe" role="CEO | Founder" />
                         </SwiperSlide>
                     </Swiper>
                 </div>

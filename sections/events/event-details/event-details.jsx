@@ -2,18 +2,13 @@ import React from 'react';
 
 import Image from 'next/image';
 
-import EventMainImage from '../../../assets/images/event-details/event.jpg';
-
-import InnerImage1 from '../../../assets/images/event-details/1.jpg';
-import InnerImage2 from '../../../assets/images/event-details/2.jpg';
-
 import { FcCheckmark } from 'react-icons/fc';
 
 function EventDetails() {
     return (
         <div className='py-20'>
             <div className="container mx-auto px-10">
-                <Image src={EventMainImage} alt="Event" />
+                <Image src='/assets/images/event-details/event.jpg' alt="Event" width={1170} height={600} />
                 <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-8'>
                     <div className='lg:col-span-2'>
                         <h3 className='text-gray-700 font-semibold my-5 text-5xl'>UI/UX Design & Development Contest 2022</h3>
@@ -37,10 +32,10 @@ function EventDetails() {
                         </p>
                         <div className='grid grid-cols-2 gap-8 my-5'>
                             <div>
-                                <Image src={InnerImage1} alt="Inner" className='rounded-md cursor-pointer' />
+                                <Image src='/assets/images/event-details/1.jpg' alt="Inner" width={320} height={270} className='rounded-md cursor-pointer' />
                             </div>
                             <div>
-                                <Image src={InnerImage2} alt="Inner" className='rounded-md cursor-pointer' />
+                                <Image src='/assets/images/event-details/2.jpg' alt="Inner" width={320} height={270} className='rounded-md cursor-pointer' />
                             </div>
                         </div>
                         <div className='my-5'>

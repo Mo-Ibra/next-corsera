@@ -41,11 +41,9 @@ function Card({ category, title, date, author, imageUrl }) {
                 </div>
             </div>
             <motion.div
-
-                className='rounded-md cursor-pointer'
-                whileHover={{ borderRadius: '50px', boxShadow: '4px 6px 16px #ddd', transition: { duration: 0.3 } }}
+                className='cursor-pointer'
             >
-                <Image src={imageUrl} alt="New" />
+                <Image src={imageUrl} alt="New" width={510} height={276} />
             </motion.div>
         </motion.div>
     )

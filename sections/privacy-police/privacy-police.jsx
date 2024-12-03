@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import PrivacyImage from '../../assets/images/event-details/event.jpg';
 
 function PrivacyPolice() {
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
-                <Image src={PrivacyImage} alt="Privacy Police" className='my-5' />
+                <Image src='/assets/images/event-details/event.jpg' width={1170} height={600} alt="Privacy Police" className='my-5' />
                 <h3 className='text-gray-700 font-bold text-2xl my-5'>Information We Collect</h3>
                 <p className='text-gray-500'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

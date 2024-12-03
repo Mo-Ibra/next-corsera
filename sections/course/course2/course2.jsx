@@ -1,11 +1,5 @@
 import React from 'react';
 
-import AuthorImg1 from '../../../assets/images/testimonials/1.png';
-import AuthorImg2 from '../../../assets/images/testimonials/2.png';
-
-import CourseImg1 from '../../../assets/images/course/1.jpg';
-import CourseImg2 from '../../../assets/images/course/2.jpg';
-
 import Card from './card/card';
 
 function Course2() {
@@ -13,26 +7,26 @@ function Course2() {
         <section className='py-10 relative'>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
-                    <Card authorUrl={AuthorImg1}
+                    <Card authorUrl='/assets/images/testimonials/1.png'
                         authorName="Mohamed Ibrahim"
                         authorRole="Wordpress Experts"
                         courseLessons="32"
                         courseHours="8"
                         courseStudents="1230"
                         courseTitle="How To Create Word Press Themes & Plugins Like Experts?"
-                        courseImage={CourseImg1}
+                        courseImage='/assets/images/course/1.jpg'
                         coursePrice="49$"
                         rate={5}
                         badge="Newest"
                     />
-                    <Card authorUrl={AuthorImg2}
+                    <Card authorUrl='/assets/images/testimonials/2.png'
                         authorName="John Doe"
                         authorRole="Javascript Developer"
                         courseLessons="32"
                         courseHours="8"
                         courseStudents="1230"
                         courseTitle="Introduction to Javascript for The Beginners Learners"
-                        courseImage={CourseImg2}
+                        courseImage='/assets/images/course/2.jpg'
                         coursePrice="Free"
                         rate={5}
                         badge="Featured"

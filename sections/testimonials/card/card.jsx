@@ -9,7 +9,7 @@ function Card({imageUrl, name, role, description}) {
         <div className='bg-white shadow-lg border border-slate-100 p-5'>
             <div className='flex items-center my-5'>
                 <div className='mr-5'>
-                    <Image src={imageUrl} alt="Testimonial" />
+                    <Image src={imageUrl} alt="Testimonial" width={55} height={55} />
                 </div>
                 <div>
                     <h3 className='text-gray-700 font-bold text-lg'>{name}</h3>

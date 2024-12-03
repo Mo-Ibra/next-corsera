@@ -28,7 +28,7 @@ function Card({ imageUrl, name }) {
             viewport={{ once: true }}
         >
             <div>
-                <Image src={imageUrl} alt="Event" className='cursor-pointer' />
+                <Image src={imageUrl} alt="Event" className='cursor-pointer' width={370} height={250} />
             </div>
             <div className='p-5'>
                 <div className='flex items-center'>

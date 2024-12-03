@@ -23,7 +23,7 @@ function Card({imageUrl, name, role}) {
             </div>
             <div className='flex'>
                 <div className='mr-5'>
-                    <Image src={imageUrl} alt="Testimonial" />
+                    <Image src={imageUrl} alt="Testimonial" width={55} height={55} />
                 </div>
                 <div>
                     <h3 className='text-gray-700 font-bold text-lg'>{name}</h3>

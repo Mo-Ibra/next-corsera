@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 import Link from 'next/link';
 
-import NotfoundImage from '../../assets/images/404.png';
+import NotfoundImage from '/assets/images/404.png';
 
 function Notfound() {
     return (
         <section className='relative'>
             <div className="container mx-auto px-10">
                 <div className='mx-auto text-center'>
-                    <Image src={NotfoundImage} alt="Notfound" />
+                    <Image src='/assets/images/404.png' alt="Notfound" width={788} height={607} />
                 </div>
                 <div className='text-center'>
                     <h3 className='my-5 text-gray-700 font-bold text-4xl'>Oops... Page Not Found!</h3>

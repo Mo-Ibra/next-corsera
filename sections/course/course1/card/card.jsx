@@ -47,12 +47,12 @@ function Card({ imageUrl, avatarUrl, author, rate, name, numberOfStudents, numbe
                 variants={imageVariants}
                 whileHover="animate"
             >
-                <Image src={imageUrl} alt="Course" />
+                <Image src={imageUrl} alt="Course" width={370} height={270} />
             </motion.div>
             <div className="flex justify-between my-5">
                 <div className='flex items-center'>
-                    <Image src={avatarUrl} alt="Avatar" width="32px" height="32px" className='rounded-full object-fill mr-2' />
-                    <h3 className='font-bold text-gray-700'>{author}</h3>
+                    <Image src={avatarUrl} alt="Avatar" width={32} height={32} className='rounded-full object-fill mr-2' />
+                    <h3 className='font-bold text-gray-700 ml-2'>{author}</h3>
                 </div>
                 <div className='flex items-center'>
                     <AiFillStar className='inline-block text-yellow-500' />

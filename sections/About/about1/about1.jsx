@@ -4,8 +4,6 @@ import Image from 'next/image';
 
 import { AiOutlineBug, AiOutlineBulb, AiOutlineArrowRight } from 'react-icons/ai';
 
-import AboutImg from '../../../assets/images/about/1.jpg';
-
 import { motion } from 'framer-motion';
 
 function About1() {
@@ -44,7 +42,7 @@ function About1() {
                 <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-8'>
                     <div>
                         <motion.div variants={fromLeftToRight} initial="initial" whileInView="animate" viewport={{once: true}}>
-                            <Image src={AboutImg} alt="About" />
+                            <Image src="/assets/images/about/1.jpg" alt="About" width={470} height={520} />
                         </motion.div>
                     </div>
                     <div>

@@ -1,8 +1,6 @@
 import { FcBriefcase, FcButtingIn, FcClock } from "react-icons/fc";
 import Image from 'next/image';
 import { AiOutlineArrowRight } from "react-icons/ai";
-import MainImage from './images/1.jpg';
-import InnerImage from './images/2.jpg';
 
 function WhoWeAre() {
     return (
@@ -10,9 +8,9 @@ function WhoWeAre() {
             <div className="container mx-auto px-10">
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8">
                     <div className="relative">
-                        <Image src={MainImage} />
+                        <Image src='/assets/images/who-we-are-images/images/1.jpg' width={450} height={590} />
                         <div className="absolute top-40 right-0 hidden lg:block">
-                            <Image src={InnerImage} />
+                            <Image src='/assets/images/who-we-are-images/images/2.jpg' width={188} height={242} />
                         </div>
                     </div>
                     <div>

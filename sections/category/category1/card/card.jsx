@@ -18,7 +18,7 @@ function Card({ imageUrl, name }) {
 
     return (
         <motion.div className="shadow-lg text-center" whileHover={{ y: -20, transition: { duration: 0.3, ease: 'easeInOut' } }} >
-            <Image src={imageUrl} alt="Category" className='cursor-pointer' />
+            <Image src={imageUrl} alt="Category" className='cursor-pointer' width={270} height={200} />
             <span className='text-blue-500 font-semibold my-2 block'>23 Course</span>
             <h3 className='text-gray-700 font-bold my-2 text-lg'>{name}</h3>
             <p className='text-sm text-gray-500 my-2'>Lorem Ipsum is simply for this dummy text of the printing</p>

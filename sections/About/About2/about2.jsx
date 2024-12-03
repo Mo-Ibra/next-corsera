@@ -4,10 +4,6 @@ import Image from 'next/image';
 
 import { AiOutlineBug, AiOutlineBulb, AiOutlineArrowRight } from 'react-icons/ai';
 
-import AboutImg1 from './images/1.jpg';
-import AboutImg2 from './images/2.jpg';
-import AboutImg3 from './images/3.jpg';
-
 import { motion } from 'framer-motion';
 
 import { useMediaQuery } from 'react-responsive';
@@ -58,9 +54,9 @@ function About2() {
                                 whileInView="animate"
                                 viewport={{ once: true }}
                             >
-                                <Image src={AboutImg1} alt="About" className='absolute top-0 left-8' />
-                                <Image src={AboutImg2} alt="About" className='absolute top-0 right-0' />
-                                <Image src={AboutImg3} alt="About" className='absolute bottom-0 left-0 drop-shadow-lg' />
+                                <Image src='/assets/images/about2/1.jpg' alt="About" className='absolute top-0 left-8' width={200} height={230} />
+                                <Image src='/assets/images/about2/2.jpg' alt="About" className='absolute top-0 right-0' width={315} height={315} />
+                                <Image src='/assets/images/about2/3.jpg' alt="About" className='absolute bottom-0 left-0 drop-shadow-lg' width={400} height={220} />
                             </motion.div>
                         )
                     }

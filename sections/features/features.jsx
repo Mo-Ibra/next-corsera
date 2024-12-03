@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-import FeaturesImg from '../../assets/images/sections/4.jpg';
-
 import { AiOutlineApartment, AiOutlineBell, AiOutlineBulb, AiOutlineCodeSandbox } from 'react-icons/ai';
 
 import { motion } from 'framer-motion';
@@ -76,7 +74,7 @@ function Features() {
                     </div>
                     <div>
                         <motion.div className='rounded-lg' variants={fromLeftToRightVariants} initial="initial" whileInView="animate" viewport={{ once: true }}>
-                            <Image src={FeaturesImg} alt="Features" />
+                            <Image src='/assets/images/sections/4.jpg' alt="Features" width={632} height={598} />
                         </motion.div>
                     </div>
                 </div>

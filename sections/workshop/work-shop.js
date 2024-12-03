@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import styles from '../../styles/work-shop.module.css';
-import MainImage from './images/2.jpg';
 
 function Workshop() {
     return (
@@ -21,7 +20,7 @@ function Workshop() {
                         </div>
                     </div>
                     <div>
-                        <Image src={MainImage} />
+                        <Image src='/assets/images/work-shop-images/images/1.png' width={578} height={379} />
                     </div>
                 </div>
             </div>

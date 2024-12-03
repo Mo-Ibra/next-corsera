@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillAccountBook } from 'react-icons/ai';
-import WhyUsImage from '../../../assets/images/sections/5.png';
 import Image from 'next/image';
 
 function WhyUs3() {
@@ -9,7 +8,7 @@ function WhyUs3() {
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                     <div>
-                        <Image src={WhyUsImage} alt="WhyUs?" />
+                        <Image src='/assets/images/sections/5.png' width={719} height={612} alt="WhyUs?" />
                     </div>
                     <div>
                         <span className='uppercase text-blue-500 font-bold'>WHY YOU WILL CHOOSE GUIDENCE</span>

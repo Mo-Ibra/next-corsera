@@ -35,7 +35,7 @@ function Card({ imageUrl, name, day, hour, place }) {
             {
                 !isTablet && (
                     <div>
-                        <Image src={imageUrl} alt="Events" />
+                        <Image src={imageUrl} alt="Events" width={140} height={140} />
                     </div>
                 )
             }

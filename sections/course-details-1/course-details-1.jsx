@@ -1,22 +1,17 @@
 import Image from "next/image";
 
-import CourseMainImg from '../../assets/images/course-details/1.jpg';
-
-import AuthorImg from '../../assets/images/avatars/1.jpg';
-import CourseAlterImg from '../../assets/images/course-details/2.jpg';
-
 import { AiOutlineCompass, AiFillStar, AiOutlineUsergroupAdd, AiOutlineBook, AiOutlineDeploymentUnit, AiOutlineFieldBinary } from "react-icons/ai";
 
 const CourseDetails1 = () => {
     return (
         <section className="py-20">
             <div className="container mx-auto px-10">
-                <Image src={CourseMainImg} />
+                <Image src='/assets/images/course-details/1.jpg' width={1300} height={700} />
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                     <div className="lg:col-span-2">
                         <div className="flex items-center justify-between my-5">
                             <div className="flex items-center gap-2">
-                                <Image src={AuthorImg} width="32px" height="32px" className="rounded-full" />
+                                <Image src='/assets/images/avatars/1.jpg' width={32} height={32} className="rounded-full" />
                                 <h3 className="text-gray-900 font-bold cursor-pointer hover:text-blue-500 duration-300">By Leone Xaviona</h3>
                             </div>
                             <div>
@@ -68,7 +63,7 @@ const CourseDetails1 = () => {
                     </div>
                     <div>
                         <div className="py-4 bg-white shadow-lg text-center">
-                            <Image src={CourseAlterImg} />
+                            <Image src='/assets/images/course-details/2.jpg' width={370} height={270} />
                             <div className="flex items-center justify-between px-6 my-5">
                                 <div className="flex items-center gap-2">
                                     <AiOutlineCompass className="text-gray-600" />

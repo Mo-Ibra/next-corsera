@@ -4,18 +4,10 @@ import styled from 'styled-components';
 
 import Image from 'next/image';
 
-// Images
-import GirlImage from './images/girl.png';
-import GirlBgImage from './images/girl-bg.png';
-import ArrowImage from './images/arrow.png';
-import ShapeImage from './images/shape.png';
-
-import Img from './images/banner.jpg';
-
 export const StyledHeader = styled.header`
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-image: url(${Img.src});
+    background-image: url('/assets/images/header-images/images/banner.jpg');
 `;
 
 function Header() {
@@ -31,19 +23,19 @@ function Header() {
                             <button className='bg-blue-500 text-white py-2 px-6 rounded-sm my-4 cursor-pointer'>Get Started Today!</button>
                         </div>
                         <div className='absolute top-90 left-0'>
-                            <Image src={ArrowImage} />
+                            <Image src='/assets/images/header-images/images/arrow.png' width={285} height={258} />
                         </div>
                     </div>
                     <div className='relative'>
                         <div>
-                            <Image src={GirlImage} />
+                            <Image src='/assets/images/header-images/images/girl.png' width={703} height={854} />
                         </div>
                         <div className="absolute top-0 right-0">
-                            <Image src={GirlBgImage} />
+                            <Image src='/assets/images/header-images/images/girl-bg.png' width={772} height={736} />
                         </div>
                     </div>
                     <div className='absolute top-0 left-0'>
-                        <Image src={ShapeImage} />
+                        <Image src='/assets/images/header-images/images/shape.png' width={89} height={102} />
                     </div>
                 </div>
             </div>
