@@ -21,8 +21,3 @@ function Home() {
 }
 
 export default Home;
-
-
-// shapes and animation
-// remove all scss and replace them with styled components
-// Add logo for your site.

@@ -110,11 +110,6 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href='course-filter'>
-                                    <a className='nav-link'>Course Filter</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link href='course-with-sidebar'>
                                     <a className='nav-link'>Course With Sidebar</a>
                                 </Link>
@@ -162,11 +157,6 @@ function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link href='/terms-of-service'>
-                                    <a className='nav-link'>Term Of Services</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link href='/privacy-police'>
                                     <a className='nav-link'>Privacy & Police</a>
                                 </Link>
@@ -176,44 +166,9 @@ function Navbar() {
                                     <a className='nav-link'>Testimonials</a>
                                 </Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link href="/soon">
-                                    <a className='nav-link'>Soon</a>
-                                </Link>
-                            </li>
                             <li className="nav-item">
                                 <Link href='/404'>
                                     <a className='nav-link'>404 Error</a>
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/blog" className="nav-link">Blog</a>
-                        <ul className="dropdown">
-                            <li className="nav-item">
-                                <Link href='/blog'>
-                                    <a className='nav-link'>Blog</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href='/blog-sidebar'>
-                                    <a className='nav-link'>Blog Sidebar</a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href='/blog-details'>
-                                    <a className='nav-link'>Blog Details</a>
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/shop" className="nav-link">Shop</a>
-                        <ul className="dropdown">
-                            <li className="nav-item">
-                                <Link href='/shop'>
-                                    <a className='nav-link'>Shop</a>
                                 </Link>
                             </li>
                         </ul>
@@ -225,7 +180,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="navbar-utils">
-                    <Link href='/login'>
+                    <Link href='/auth/login'>
                         <a style={{ textDecoration: 'none' }}>
                             <button className='bg-blue-500 text-white px-4 py-1 rounded-sm'>Login</button>
                         </a>
