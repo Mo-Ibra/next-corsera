@@ -10,7 +10,7 @@ import { useMediaQuery } from 'react-responsive';
 
 function About2() {
 
-    const isScreen = useMediaQuery({ query: '(max-width: 1320px)' });
+    // const isScreen = useMediaQuery({ query: '(max-width: 1320px)' });
 
     // const fromLeftToRight = {
     //     initial: {
