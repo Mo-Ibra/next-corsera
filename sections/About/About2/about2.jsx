@@ -12,34 +12,34 @@ function About2() {
 
     const isScreen = useMediaQuery({ query: '(max-width: 1320px)' });
 
-    const fromLeftToRight = {
-        initial: {
-            x: -100,
-            opacity: 0
-        },
-        animate: {
-            x: 0,
-            opacity: 1,
-            transition: {
-                duration: 1.5,
-                ease: 'easeInOut'
-            }
-        }
-    }
+    // const fromLeftToRight = {
+    //     initial: {
+    //         x: -100,
+    //         opacity: 0
+    //     },
+    //     animate: {
+    //         x: 0,
+    //         opacity: 1,
+    //         transition: {
+    //             duration: 1.5,
+    //             ease: 'easeInOut'
+    //         }
+    //     }
+    // }
 
-    const fromHiddenToVisible = {
-        initial: {
-            opacity: 0
-        },
-        animate: {
-            opacity: 1,
-            transition: {
-                duration: 1.5,
-                ease: 'easeInOut',
-                delay: 0.5
-            }
-        }
-    }
+    // const fromHiddenToVisible = {
+    //     initial: {
+    //         opacity: 0
+    //     },
+    //     animate: {
+    //         opacity: 1,
+    //         transition: {
+    //             duration: 1.5,
+    //             ease: 'easeInOut',
+    //             delay: 0.5
+    //         }
+    //     }
+    // }
 
     return (
         <section className='py-20 background-image relative'>
