@@ -1,6 +1,6 @@
 
 export { default as About1 } from "./About/about1/about1";
-export { default as About2 } from "./About/about2/about2";
+// export { default as About2 } from "./About/about2/about2";
 
 export { default as Login } from "./auth/login/login";
 export { default as Register } from "./auth/register/register";

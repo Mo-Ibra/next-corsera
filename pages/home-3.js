@@ -1,6 +1,6 @@
 import { Footer, Header, Navbar } from "../components";
 import {
-  About2,
+  About1,
   Category2,
   Course1,
   Event2,
@@ -22,7 +22,7 @@ function Home() {
       {/* Anaylsitc */}
       <Course1 />
       <Workshop />
-      <About2 />
+      <About1 />
       <Testimonials2 />
       <Event2 />
       <Offer />

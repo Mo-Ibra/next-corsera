@@ -1,6 +1,7 @@
 import { Breadcrumb, Footer, Navbar } from "../components";
 import {
-  About2,
+  About1,
+  // About2,
   Offer,
   Subscripe,
   Team,
@@ -13,7 +14,8 @@ function About() {
     <>
       <Navbar />
       <Breadcrumb title="About Us" />
-      <About2 />
+      {/* <About2 /> */}
+      <About1 />
       <Offer />
       <Team />
       <WhyUs2 />
