@@ -1,12 +1,22 @@
-import { Footer, Header, Navbar } from '../components';
-import { About1, Category1, Course2, Testimonials2, Team, WhyUs3, News, Offer, Subscripe } from '../sections';
+import { Footer, Header, Navbar } from "../components";
+import {
+  // About1,
+  Category1,
+  Course2,
+  Testimonials2,
+  Team,
+  WhyUs3,
+  News,
+  Offer,
+  Subscripe,
+} from "../sections";
 
 function Home() {
   return (
     <>
       <Navbar />
       <Header />
-      <About1 />
+      {/* <About1 /> */}
       <Category1 />
       <Course2 />
       <Testimonials2 />
@@ -17,7 +27,7 @@ function Home() {
       <Offer />
       <Footer />
     </>
-  )
+  );
 }
 
 export default Home;

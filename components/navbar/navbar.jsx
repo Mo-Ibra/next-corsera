@@ -76,7 +76,7 @@ function Navbar() {
                             </li>
                         </ul>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a href="/about-1" className="nav-link">About</a>
                         <ul className="dropdown">
                             <li className="nav-item">
@@ -90,7 +90,7 @@ function Navbar() {
                                 </Link>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a href="/course-1" className="nav-link">Courses</a>
                         <ul className="dropdown">
