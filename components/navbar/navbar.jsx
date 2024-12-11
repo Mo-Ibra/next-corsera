@@ -45,7 +45,12 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-brand">
-                    <h4 style={{ fontWeight: 'bold', cursor: 'pointer' }}>Your Logo</h4>
+                    <Link href={'/'}>
+                        <h4 style={{ fontWeight: 'bold', cursor: 'pointer', fontSize: '1.5rem' }}>
+                            <span className='text-blue-500'>C</span>
+                            orsera
+                        </h4>
+                    </Link>
                 </div>
                 <button className="navbar-toggler" onClick={toggleBtnHandler} >
                     <AiOutlineMenu aria-hidden="true" />
